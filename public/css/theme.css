@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css2?family=Oswald);
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+
+.bg-light{
+    background-color: #30CF7B !important;
+    -webkit-box-shadow: 10px 9px 53px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 9px 53px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 9px 53px 0px rgba(0,0,0,0.75);
+}
+
+.navbar-light .navbar-brand{
+    font-family: 'Oswald' ;
+    color: #C8EFAB !important;
+    text-shadow: #30CF7B;
+}
+
+.nav-link{
+    font-family: 'Oswald';
+}
+
+.nav-link:hover{
+    color: #C8EFAB !important;
+}
+
+html,body {
+    background-color: #30CF7B; /* fallback color */
+    background: linear-gradient( to bottom, #30CF7B, #C8EFAB);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.btn-primary{
+    -webkit-box-shadow: inset 10px 9px 50px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 10px 9px 50px 0px rgba(0,0,0,0.75);
+    box-shadow: inset 10px 9px 50px 0px rgba(0,0,0,0.75);
+    background: #30CF7B;
+}
+
+.btn-primary:hover{
+    background-color: #C8EFAB;
+}
+
+table tr:nth-child(odd) td{
+    background-color:#1fdf79;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins';
+    color:#04572a
+}
+
+a{
+    color:#025529
+}
+a:hover{
+    color:#111814 
+}
+
+legend{
+    margin: 1%;
+    font-family: 'Noto Sans';
+    color:#04572a;
+    text-shadow: 2px 2px rgb(185, 150, 218);
+}
